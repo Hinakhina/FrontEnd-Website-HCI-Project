@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/register-page.css">
+    <link rel="icon" href="/asset/display-img.png">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a class="nav-left" href="/html/home-page.html">
+            <img src="/asset/display-img.png" alt="">
+            <span class="web-name">Willify</span>
+        </a>
+
+        <div class="nav-right">
+            <a href="/html/home-page.html" class="navigator">Home</a>
+            <a href="/html/songs-page.html" class="navigator">SongsList</a>
+            <a href="/html/about-us-page.html" class="navigator">AboutUs</a>
+            <a href="/html/register-page.html" class="navigator">Register</a>
+    
+            <a href="/html/register-page.html" id="nav-user"><img src="/asset/circle-user.png" alt=""></a>
+        </div>
+
+    </nav>
+
+
+    <main class="page">
+        <div id="registration-div">
+            <div class="logo-div">
+                <h1 class="title">Registration</h1>
+                <img src="/asset/willify-icon.png" alt="">
+            </div>
+            <form action="" id="registration">
+
+                <div class="input-div">
+                    <label for="username" class="label">Username</label>
+                    <div class="inputContent">
+                        <input type="text" name="username" id="username">
+                        <span class="error" id="usernameError"></span>
+                    </div>
+                </div>
+    
+                <div class="input-div">
+                    <label for="email" class="label">Email</label>
+                    <div class="inputContent">
+                        <input type="text" name="email" id="email">
+                        <span class="error" id="emailError"></span>
+                    </div>
+                </div>
+    
+                <div class="input-div">
+                    <label for="password" class="label">Password</label>
+                    <div class="inputContent">    
+                        <input type="password" name="password" id="password">
+                        <span class="error" id="passwordError"></span>
+                        </div>
+                        </div>
+                
+                <div class="input-div">
+                    <label for="age" class="label">Age</label>
+                    <div class="inputContent">    
+                        <input type="number" name="age" id="age">
+                        <span class="error" id="ageError"></span>
+                    </div>
+                </div>
+                
+                <div class="input-div">
+                    <label for="gender">Gender</label>
+                    <div class="gender-div">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="gender-div">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <span class="error" id="genderError"></span>
+                </div>
+                
+                <div id="button-div">
+                    <button type="submit" id="submit">Submit
+                        <img src="/asset/submit.png" alt="">
+                    </button>
+                    <div class="popup" id="popup">
+                        <h2>Registration Completed!</h2>
+                        <span>Welcome and Have Fun :D</span>
+                        <a class="pop-up-btn" href="/html/home-page.html">OK</a>
+                    </div>
+                </div>
+    
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <span id="footer-willify">Willify</span>
+            <span id="footer-toc">Terms and Conditions</span>
+        </div>
+        <div class="footer-right">
+            <span id="footer-about">More About Us</span>
+            <div class="social-icon">
+                <img src="/asset/instagram.png" alt="" class="social">
+                <img src="/asset/twitter.png" alt="" class="social">
+                <img src="/asset/email.png" alt="" class="social">
+                <img src="/asset/whatsapp.png" alt="" class="social">
+                <img src="/asset/facebook.png" alt="" class="social">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/js/register-page.js"></script>
+</body>
+</html>
